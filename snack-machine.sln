@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snack-machine-api", "snack-machine-api\snack-machine-api.csproj", "{20162F30-CA95-4FA5-B90B-673C24C13EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snack-dispenser", "snack-dispenser\snack-dispenser.csproj", "{8AB9421A-16F6-426C-84EC-858F9E5CC30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "money-collector", "money-collector\money-collector.csproj", "{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "money-dispenser", "money-dispenser\money-dispenser.csproj", "{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ADEB0780-87BE-11EC-AB13-235BF092694B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D9B0EE70-87BE-11EC-AB13-235BF092694B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snack-machine-infra", "snack-machine-infra\snack-machine-infra.csproj", "{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snack-machine-shared", "snack-machine-shared\snack-machine-shared.csproj", "{C8376FC8-63E0-44EB-BDF9-02E99221B8D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20162F30-CA95-4FA5-B90B-673C24C13EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20162F30-CA95-4FA5-B90B-673C24C13EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20162F30-CA95-4FA5-B90B-673C24C13EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20162F30-CA95-4FA5-B90B-673C24C13EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB9421A-16F6-426C-84EC-858F9E5CC30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB9421A-16F6-426C-84EC-858F9E5CC30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB9421A-16F6-426C-84EC-858F9E5CC30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB9421A-16F6-426C-84EC-858F9E5CC30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8376FC8-63E0-44EB-BDF9-02E99221B8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8376FC8-63E0-44EB-BDF9-02E99221B8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8376FC8-63E0-44EB-BDF9-02E99221B8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8376FC8-63E0-44EB-BDF9-02E99221B8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8376FC8-63E0-44EB-BDF9-02E99221B8D4} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+		{E9E0B84F-9D89-42B3-8DD1-D0D2DB87D4E6} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+		{20162F30-CA95-4FA5-B90B-673C24C13EC1} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+		{8AB9421A-16F6-426C-84EC-858F9E5CC30B} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+		{CEBB6FCC-991E-4D7D-9DE9-FDA48B92B600} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+		{EEC5FCE7-8CBE-4EEC-8121-3552B52CA593} = {ADEB0780-87BE-11EC-AB13-235BF092694B}
+	EndGlobalSection
+EndGlobal
